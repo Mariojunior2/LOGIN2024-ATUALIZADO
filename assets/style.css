@@ -10,29 +10,29 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-family: Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   background-size: cover;
   padding-top: 200px !important;
-  background-image: url("https://pa1.narvii.com/6662/94180acd2209691e71d5657a580ebeb3fcd92837_hq.gif");
-  color: #ffffff;
+  background-image: url("https://i.imgur.com/5s2sYXj.gif");
+  color: #fff;
   line-height: 1.6;
   padding: 20px;
   flex: 1;
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.788);
+  background: rgba(0, 0, 0, 0.5);
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   padding-top: 100px;
-  background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
 h1, h2 {
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 h1 {
@@ -65,18 +65,19 @@ button {
 }
 
 button {
-  background-color: gray;
-  color: white;
+  background-color: #fff;
+  color: #000;
   border: none;
   cursor: pointer;
   font-size: 1em;
 }
+
 button:hover {
   background-color: rgb(99, 99, 99);
 }
 
 a {
-  color: gray;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -119,6 +120,7 @@ p {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .dashboard {
@@ -126,6 +128,7 @@ p {
   color: black;
   border-radius: 10px;
   padding: 8px;
+  margin-bottom: 20px;
 }
 
 .registro {
@@ -134,4 +137,5 @@ p {
   border-radius: 10px;
   width: 500px;
   padding: 8px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
