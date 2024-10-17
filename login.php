@@ -40,7 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login</title>
 </head>
 <body>
-    <h1>Login</h1>
+    <div class="login">
+    <h1>LOGIN</h1>
     <?php
     if (isset($_SESSION['success'])) {
         echo "<p style='color:green'>{$_SESSION['success']}</p>";
@@ -57,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">Entrar</button>
     </form>
     <p>Não tem uma conta? <a href="register.php">Registre-se aqui</a>.</p>
+    </div>
 </body>
 </html>
 

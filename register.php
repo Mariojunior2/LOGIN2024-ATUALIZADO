@@ -34,7 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h2>Registro</h2>
+    <div class="registro">
+    <h2>REGISTRO</h2>
     <?php
     if (isset($_SESSION['error'])) {
         echo "<p style='color:red'>{$_SESSION['error']}</p>";
@@ -62,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">Registrar</button>
     </form>
     <p>Já tem uma conta? <a href="login.php">Faça login aqui</a>.</p>
+    </div>
 </body>
 </html>
 

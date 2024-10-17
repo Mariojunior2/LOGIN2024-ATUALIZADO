@@ -18,9 +18,13 @@ $nome = isset($_SESSION['nome']) ? $_SESSION['nome'] : 'nome';
     <title>Dashboard</title>
 </head>
 <body>
+    <div class="dashboard">
     <h2>Bem-vindo, <?php echo htmlspecialchars($nome); ?>!</h2>
     <br>
+    <h3>ULTIMAS NOTICIAS</h3>
+    <p>VOCÊ É LINDO OU LINDA!!!!</p>
     <a href='logout.php'>Sair</a>
+</div>
 </body>
 </html>
 
