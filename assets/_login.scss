@@ -1,8 +1,8 @@
 .login {
     border-radius: 10px;
     padding: 8px;
-    color: rgb(0, 0, 0);
-    background: rgba(255, 255, 255, 0.788);
+    color: $cor-L;
+    background: $cor-P;
     width: 500px;
     display: flex;
     align-items: center;
@@ -12,16 +12,16 @@
 }
 
 .dashboard {
-    background: rgba(255, 255, 255, 0.788);
-    color: black;
+    background: $cor-P;
+    color: $cor-L;
     border-radius: 10px;
     padding: 8px;
     margin-bottom: 20px;
 }
 
 .registro {
-    background: rgba(255, 255, 255, 0.788);
-    color: black;
+    background: $cor-P;
+    color: $cor-L;
     border-radius: 10px;
     width: 500px;
     padding: 8px;
